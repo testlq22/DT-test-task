@@ -31,5 +31,5 @@ test('Should check multiple adding', async ({ page }) => {
   await mainPage.checkBoxThree.click();
   await mainPage.addTrackButton.click();
   await expect(mainPage.playList).toContainText('Autumn' , 'Spring' , 'Rainy');   
-});
+}); 
 });

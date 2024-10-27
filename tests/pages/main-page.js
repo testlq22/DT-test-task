@@ -12,7 +12,7 @@ export class MainPage {
     this.checkBoxTwo = page.locator('#tracklist > div > div:nth-child(4) > div.MuiGrid-root.MuiGrid-item.css-1wxaqej > span > input');
     this.checkBoxThree = page.locator('#tracklist > div > div:nth-child(5) > div.MuiGrid-root.MuiGrid-item.css-1wxaqej > span > input');
     this.addTrackButton = page.locator('#tracklist > div > button');    
-  }
+  } 
 
   async goto() {
     await this.page.goto('https://vite-react-alpha-lemon.vercel.app/');

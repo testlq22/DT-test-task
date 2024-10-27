@@ -8,5 +8,5 @@ export class SearchPage {
     this.page = page;    
     this.searchResult = page.locator('[class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1udb513"]');    
   }
-  
+   
 }
